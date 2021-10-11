@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Style Form</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1 class="title">Say Hello!</h1>
+
+        <form>
+            <div>
+                <label>
+                    Your Name
+                    <input type="text" name="your name" placeholder="Enter your name" disabled>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Email
+                    <input type="email" placeholder="Enter your email address" disabled>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Needed Services
+                    <select name="choose services" id="select" placeholder="Choose Services">
+                        <option value="FSE">Full Stack Experience</option>
+                        <option value="FE">Front End</option>
+                        <option value="BE">Just the Back End for me thanks</option>                      
+                    </select>                        
+                </label>
+            </div>
+            <div>
+                <label>
+                    Budget
+                    <input type="radio" name="budget" placeholder="Select Budget" value="$20,000-$40,000">
+                    <input type="radio" name="budget" placeholder="Select Budget" value="$40,000-$80,000">
+                    <input type="radio" name="budget" placeholder="Select Budget" value="$80,000-$120,000">
+                </label>
+            </div>
+            <div>
+                <label>Message</label>
+                <textarea name="your message here" id="Message" placeholder="Your Message Here" cols="50" rows="5"></textarea>
+                
+            </div>
+            <div>
+                <button type="submit">
+                    <!-- Submit <img src="remote-control-fast-forward-button.png" alt="right arrow pic"> -->
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
